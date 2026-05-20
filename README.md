@@ -52,9 +52,45 @@ docker compose up -d --build
 
 <img width="776" height="161" alt="image" src="https://github.com/user-attachments/assets/715b2ba0-eada-47cc-9d06-e3ebb7622347" />
 
+### Langkah 4: Melakukan Pengujian Compose, Volume, Container, Network
+
+**Pengujian Volume**
+```bash
+docker volume ls
+```
+
+**Pengujian Container**
+```bash
+docker ps
+```
+
+**Pengujian Network**
+```bash
+docker exec -it container-final sh
+ping mysql-db
+```
+
+**Dokumentasi/Screenshot:**
+
+  **Pengujian Compose**
+
+  <img width="792" height="167" alt="image" src="https://github.com/user-attachments/assets/0cf35c65-d70b-4023-9b68-73e54c078a5a" />
+
+  **Pengujian Volume**
+
+  <img width="244" height="46" alt="image" src="https://github.com/user-attachments/assets/5e6804ec-c137-411d-a8ff-a298deaf832e" />  
+
+  **Pengujian Container**
+
+  <img width="965" height="70" alt="image" src="https://github.com/user-attachments/assets/dcb2f2e8-502f-4867-8cc3-d2813fb226be" />  
+
+  **Pengujian Network**
+
+  <img width="749" height="209" alt="image" src="https://github.com/user-attachments/assets/709615b1-a398-45fa-bdab-8c2e0e5911c9" />
+
 ---
 
-### Langkah 4: Melakukan Pengujian di Browser
+### Langkah 5: Melakukan Pengujian di Browser
 
 Jelaskan bagaimana cara melakukan verifikasi atau pengujian bahwa praktikum Anda berhasil berjalan.
 
@@ -64,7 +100,7 @@ Jelaskan bagaimana cara melakukan verifikasi atau pengujian bahwa praktikum Anda
 
 ---
 
-### Langkah 5: Melakukan Pengujian di Hoppscotch
+### Langkah 6: Melakukan Pengujian di Hoppscotch
 
 Melakukan pengujian di Hoppscotch. Berikan link http://localhost:3000/ pada Hoppscotch. Untuk pengujian get kita hanya perlu untuk memilih 'GET' dan klik pada kirim untuk melihat semua user. Untuk insert ganti dengan memilih pada 'POST', pada bagian body ganti dengan 
 content type application/json lalu berikan value baru pada 'name'. Untuk update pilih 'PUT' dan akhiran linknya diganti dengan users/[id] sesuai dengan id yang ingin diupdate. Untuk delete pilih 'DELETE' dengan link berakhiran users/[id] id sesuai dengan id yang ingin dihapus.
@@ -89,7 +125,7 @@ content type application/json lalu berikan value baru pada 'name'. Untuk update 
 
 ---
 
-### Langkah 6: Melakukan Push ke Docker
+### Langkah 7: Melakukan Push ke Docker
 
 Melakukan push image ke docker.
 
@@ -98,57 +134,14 @@ docker tag image-final derisstrict/image-final
 docker push derisstrict/image-final
 ```
 
+### Langkah 8: Menambahkan Repository Github
+
+Pada github desktop, pada menu File > New repository. Tambahkan nama repository dan path ke projeknya.
+
+**Dokumentasi/Screenshot:**
+
+<img width="954" height="655" alt="image" src="https://github.com/user-attachments/assets/a7d68b3e-f9df-43d8-9bf1-726c608a5227" />
+
 ## Kesimpulan
 
 Kendala yang dialami adalah database awalnya tidak terkoneksi karena salahnya nama database.
-
-
-## Hasil Pengujian Projek
-1.⁠ ⁠Pengujian Docker Compose, Volume, Network, Container
-
-  **Pengujian Compose**
-
-  <img width="962" height="92" alt="image" src="https://github.com/user-attachments/assets/ca20d3ac-8e42-4ee9-9408-755988fb9b5e" />  
-
-  **Pengujian Volume**
-
-  <img width="244" height="46" alt="image" src="https://github.com/user-attachments/assets/5e6804ec-c137-411d-a8ff-a298deaf832e" />  
-
-  **Pengujian Container**
-
-  <img width="965" height="70" alt="image" src="https://github.com/user-attachments/assets/dcb2f2e8-502f-4867-8cc3-d2813fb226be" />  
-
-  **Pengujian Network**
-
-  <img width="749" height="209" alt="image" src="https://github.com/user-attachments/assets/709615b1-a398-45fa-bdab-8c2e0e5911c9" />
-
-
-2.⁠ ⁠⁠Pengujian Endpoint -> Request dan Response (Browser, Postman)
-
-**Pengujian Browser**
-
-<img width="372" height="257" alt="image" src="https://github.com/user-attachments/assets/9a5b33e2-96bc-4a42-a9c4-b9f583dd76e1" />
-
-**Pengujian Get**
-
-<img width="1308" height="656" alt="image" src="https://github.com/user-attachments/assets/7cb70eb8-c41c-4c09-9052-6ba03ebe08dd" />
-
-**Pengujian Post**
-
-<img width="1321" height="559" alt="image" src="https://github.com/user-attachments/assets/f40fdbd5-5eb2-4591-9a3c-7fc86bef7e3d" />
-
-**Pengujian Put**
-
-<img width="1187" height="563" alt="image" src="https://github.com/user-attachments/assets/ff112f7d-8039-4858-b90e-ec54e7c8023a" />
-
-**Pengujian Delete**
-
-<img width="1175" height="590" alt="image" src="https://github.com/user-attachments/assets/51267c20-9807-448d-92a3-1d41aa1b433b" />
-
-3.⁠ ⁠⁠Pengujian upload ke Docker Hub
-
-<img width="678" height="217" alt="image" src="https://github.com/user-attachments/assets/acfa9d39-ac6c-45dd-ad71-7167447a9ea3" />
-
-4.⁠ ⁠Pengujian lainnya yang diperlukan
-
-<img width="1629" height="441" alt="image" src="https://github.com/user-attachments/assets/83d6ed10-07c4-4e1f-a10f-1aab2d82194c" />
