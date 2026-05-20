@@ -19,6 +19,7 @@
 
 
 2.⁠ ⁠⁠Pengujian Endpoint -> Request dan Response (Browser, Postman)
+
 **Pengujian Browser**
 
 <img width="372" height="257" alt="image" src="https://github.com/user-attachments/assets/9a5b33e2-96bc-4a42-a9c4-b9f583dd76e1" />
@@ -44,3 +45,5 @@
 <img width="678" height="217" alt="image" src="https://github.com/user-attachments/assets/acfa9d39-ac6c-45dd-ad71-7167447a9ea3" />
 
 4.⁠ ⁠Pengujian lainnya yang diperlukan
+
+<img width="1629" height="441" alt="image" src="https://github.com/user-attachments/assets/83d6ed10-07c4-4e1f-a10f-1aab2d82194c" />
