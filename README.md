@@ -24,7 +24,7 @@
 
 ### Langkah 1: Membuat Struktur Projek
 
-Membuat struktur folder untuk projek.
+Membuat struktur folder untuk projek melalui VS Code.
 
 **Dokumentasi/Screenshot:**
 
@@ -32,11 +32,23 @@ Membuat struktur folder untuk projek.
 
 ---
 
-### Langkah 2: Mengisi File Dockerfile, app.js, docker-compose.yml
+### Langkah 2: Mengisi File Dockerfile, app.js, docker-compose.yml, .env
 
-Membuat isi dari file-file tersebut berdasarkan dari projek latihan sebelumnya. pada app.js ditambahkan dengan kode untuk put dan delete.
+Membuat isi dari file-file tersebut berdasarkan dari projek latihan sebelumnya dan disesuaikan. Pada app.js ditambahkan dengan kode untuk put dan delete.
 
 **Dokumentasi/Screenshot:**
+
+Dockerfile
+
+<img width="362" height="203" alt="image" src="https://github.com/user-attachments/assets/bd84b442-6abd-4c9f-b6e4-8c734d21cdbf" />
+
+.env
+
+<img width="301" height="162" alt="image" src="https://github.com/user-attachments/assets/3aa9da11-aebd-4fdd-9be7-8976d5f1730c" />
+
+docker-compose.yml
+
+<img width="342" height="777" alt="image" src="https://github.com/user-attachments/assets/9eeb00f6-f666-43ae-a435-096eae7c30bc" />
 
 Update file app.js
 
