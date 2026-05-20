@@ -38,7 +38,9 @@ Membuat isi dari file-file tersebut berdasarkan dari projek latihan sebelumnya. 
 
 **Dokumentasi/Screenshot:**
 
-<img width="251" height="153" alt="image" src="https://github.com/user-attachments/assets/8229f36d-9bcd-47cd-8bdf-bc362b8f91e5" />
+Update file app.js
+
+<img width="485" height="717" alt="image" src="https://github.com/user-attachments/assets/43e63609-a4d4-4c59-8afe-79c99cfb2e29" />
 
 ---
 
@@ -92,7 +94,7 @@ ping mysql-db
 
 ### Langkah 5: Melakukan Pengujian di Browser
 
-Jelaskan bagaimana cara melakukan verifikasi atau pengujian bahwa praktikum Anda berhasil berjalan.
+Membuka pada link http://localhost:3000/users. Karena belum terdapat data maka tidak terlihat apapun dan jika terdapat error harusnya akan diberikan disini.
 
 **Dokumentasi/Screenshot:**
 
