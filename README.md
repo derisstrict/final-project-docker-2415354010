@@ -148,6 +148,11 @@ docker tag image-final derisstrict/image-final
 docker push derisstrict/image-final
 ```
 
+**Dokumentasi/Screenshot:**
+
+<img width="504" height="402" alt="image" src="https://github.com/user-attachments/assets/81066ba5-bdfa-42b4-8c5d-aec010558dd9" />
+
+
 ### Langkah 8: Menambahkan Repository Github
 
 Pada github desktop, pada menu File > New repository. Tambahkan nama repository dan path ke projeknya.
